@@ -1,0 +1,118 @@
+
+.hero-container{
+    color: #EEEEEE;
+    background-color: #201E43;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.hero-container h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.hero-container span{
+    margin: 5px 0;
+}
+
+.hero-container p{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.content-container{
+    width: 100%;
+    max-width: 1000px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    flex: 10;
+    margin: 0;
+    margin-left: 15px;
+}
+.profile-picture-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    flex: 5;
+    margin: auto 5px;
+}
+
+.content-container img{
+    object-fit: cover;
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px 0 0 10px;
+    -webkit-border-radius: 10px 0 0 10px;
+    -moz-border-radius: 10px 0 0 10px;
+    -ms-border-radius: 10px 0 0 10px;
+    -o-border-radius: 10px 0 0 10px;
+}
+
+.separator{
+    width: 100%;
+    background-color: #508C9B;
+    padding: 10px 0;
+}
+
+.separator h1 {
+    color: #201E43;
+    text-align: center;
+}
+
+.parts-of-me {
+    width: 100%;
+    background-color: #134B70;
+    padding-bottom: 50px;
+}
+
+.pom-container{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 600px){
+    .content-container img{
+        object-fit: cover;
+        width: 100%;
+        min-width: 200px;
+        max-width: 600px;
+        max-height: 250px;
+        border-radius: 10px 10px 0 0;
+        -webkit-border-radius: 10px 10px 0 0;
+        -moz-border-radius: 10px 10px 0 0;
+        -ms-border-radius: 10px 10px 0 0;
+        -o-border-radius: 10px 10px 0 0;
+    }
+
+    .profile-container{
+        margin: 0 auto;
+    }
+
+    .profile-container h1{
+        font-size: 1.8rem;
+    }
+
+    .profile-container p{
+        font-size: 1rem;
+    }
+    
+}

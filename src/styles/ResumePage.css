@@ -1,0 +1,49 @@
+.resume-container{
+    background-color: #201E43;
+    color: #EEEEEE;
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+    padding-left: 10%;
+    font-size: 1.5em;
+}
+
+.achievement {
+    padding-left: 10px;
+    margin: 20px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.achievement h3 {
+    margin: 0;
+}
+
+.achievement span {
+    font-size: 1.2rem;
+    color: #508C9B;
+}
+
+.achievement p {
+    font-size: 0.8em;
+    margin: 15px 0;
+}
+
+@media (max-width: 600px){
+    .resume-container{
+        padding-left: 5%;
+    }
+    .resume-container h2{
+        font-size: 1.3em;
+    }
+
+    .achievement h3 {
+        font-size: 1em;
+    }
+
+    .achievement p {
+        /* font-size: 0.8em; */
+        margin: 15px 0;
+    }
+}
